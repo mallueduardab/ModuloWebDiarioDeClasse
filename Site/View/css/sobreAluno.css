@@ -1,0 +1,36 @@
+body{
+	font-family: 'robotoregular';
+}
+.box
+{
+    border-radius: 3px;
+    margin-top: 30px;
+    background-color: #F9F9F9 !important;
+}
+.box-cabecalho
+{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #F2F2F2 !important;
+    text-align: left;
+    padding: 1px;
+    padding-left: 20px;
+}
+.info-nota
+{
+    display: inline-flex;
+}
+hr
+{
+    border: 1px solid rgb(238, 238, 238);
+}
+.ausente
+{
+    color:rgb(201, 117, 117);
+}
+.main-box-notas,
+.main-box-frequencia
+{
+    overflow-y: auto;
+    max-height: 250px;
+}

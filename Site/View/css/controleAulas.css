@@ -1,0 +1,566 @@
+/*Arquivo CSS contendo as principais personalizacoes*/
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    font-family: 'robotoregular';  
+}
+
+body { /*Cor de fundo*/
+    background-color: #009688;
+    height: 100%;
+}
+
+.img-boasvindas{
+    align-content: space-around;
+}   
+.footer {
+    position:absolute;
+    bottom:0;
+}
+
+#content{
+    height: 100%;
+}
+
+#barra-inicial{
+    height: 85%;
+}
+
+/*fundo de corpo branco*/ 
+.body_white{
+    background-color: white !important; 
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0px;
+}
+
+
+.padd_top{
+    padding-top: 65px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;   
+}
+
+h1.title { 
+    padding: 80px 30px 30px 0px;
+    text-align: right;
+}
+
+h1.cdst { 
+    color: #009688;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 5px, 5px, black;
+    font-family: 'Roboto', cursive;
+}
+
+h2{ 
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+h2.cdst-left {
+    text-align: left;
+}
+h2.cdst-right {
+    text-align: right;
+    padding-right: 30px;
+}
+
+h2.cdst-center {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+/*barra superior de guia de navegação*/
+.nav-title-top{
+    color: white;
+    padding: 10px 0px 10px 0px;
+    height: 60px;
+}
+
+h3{
+  /*text-align: center;*/    
+}
+
+
+h3.nome-periodo{
+    font-size: 30px;
+}
+
+h3.cdst {
+    font-weight: 200;
+    text-align: left;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.cdst-green {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    text-shadow: 20px, 20px, black;
+    margin-left: 30px;
+    padding: 0px auto;
+    color: #009688;
+
+}
+
+h4.cdst-left{
+    text-align: left;
+}
+
+.title_middle {
+    text-align: center;
+}
+
+/*conteudo do diario*/
+#content{
+
+}
+
+#title2{
+    font-size: 50px;
+}
+
+#subtitle{
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h5{
+    padding: 30px;
+}
+
+/*textos de visualização de dados*/
+p.description-data{
+    text-align: center;
+    font-size: 20px;
+    background-color:#A9A9A9;
+    margin-bottom: 0px;
+}
+
+p.description-result{
+    background-color: #D3D3D3;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#diarieS{
+    color: black;
+    font-weight: bold;
+    background-color: #FFFAFA;
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:  20px;
+}
+
+/*descrições em parágrafos simples explicativos*/
+p.description-about-theme{
+    color: black;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 35px;
+
+}
+
+
+
+/*descrições em parágrafos de tutoriais*/
+p.description {
+    color: white;
+    font-size: 20px;
+    padding: 0px 30px 0px 20px ;
+    text-align: right;
+    text-shadow: #009688 1px 1px;
+}
+
+
+.btn-outline{
+    position: relative;
+    border: 0 none;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+}
+
+.btn-initial {
+    padding-left: 120px;
+
+}
+
+.btn-info {
+    background-color: #264653; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.btn-info:hover {
+    color: white;
+    background: black;
+}
+
+.btn-info:active {
+    color: green;
+    background: white;
+}
+
+.btn-right{
+    text-align: left;
+}
+
+div .btn-next {
+    align-items: flex-end;
+}
+
+.image22
+{
+    background-image : url(img/image22.png);
+    background-repeat : no-repeat;
+    position : absolute ;
+    left : 0px;
+    top : 19px;
+    width : 294px;
+    height : 423px;
+}
+
+/*dados de quadro de cadastro de imagens*/
+.ctn-dados {
+    border-radius: 5px;
+    border-color: #264653;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-style: solid;
+    padding: 15px 30px 15px 30px ;
+    margin: 0px 0px 40px 60px; ;
+    width: auto;
+   }
+
+input[type=file] {
+    display: inline;
+}
+
+.big_glyphicon{
+    font-size: 20px;
+}
+
+
+#ctn-foto {
+    background-color: #e5e5e5;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    display: flex; /*Faz ficarem no centro*/
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+#ic-foto {
+    font-size: 35px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+
+.form-control-cdst{
+    font-size: 25px;  
+    
+}
+.form-control-cdst:focus{
+    border-bottom-color: #009688;
+    border-width: 3px;
+}
+
+/*remove outline this area*/
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #eeeeee;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: none;
+    box-shadow: none !important;
+    resize: none;
+}
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: 0.85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+    -moz-transition: top 0.3s ease,opacity 0.3s ease;
+    -ms-transition: top 0.3s ease,opacity 0.3s ease;
+    transition: top 0.3s ease,opacity 0.3s ease;
+}
+.floating-label-form-group:not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eeeeee;
+}
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+.floating-label-form-group-with-focus label {
+    color: #18BC9C;
+}
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eeeeee;
+}
+footer {
+    color: white;
+}
+footer h3 {
+    margin-bottom: 30px;
+}
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #2C3E50;
+}
+footer .footer-col {
+    margin-bottom: 50px;
+}
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
+}
+
+fieldset.boox{
+    padding: 60px;
+
+}
+
+.fundo{
+   color: #e6e6e6;
+   background-color: #e6e6e6;
+   text-align: center;
+}
+
+.form-control-cdst-periodo{
+    font-size: 38px;
+    
+}
+
+/*caixa backgroud periodo*/
+.ctn-prds{
+    background-color: #e6e6e6;;
+    text-align: center;
+    width: 350spx;
+    height: 350px;
+    margin: 10px 10px 40px 10px ;
+    padding: 10px;
+
+}
+.dados-periodo{
+    color: #009688;
+    font-size: 20px;
+}
+
+.ctn-prds-act{
+    background-color: #e6e6e6;
+}
+
+.btn-cdst-rtrn {
+    background-color: #eeeeec; /* Cor de fundo */
+    /*Texto*/
+    color: #009688; /*Cor da fonte dentro do botão*/
+    text-align: center; /*alinhamento do texto*/
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'Roboto', cursive;
+
+    /*Borda*/
+    border-style: solid;
+    border-color: none; /*cor*/
+    border-width: 2px;
+    border-radius: 15px;
+
+
+
+    /*Tamanho*/
+    width: 200px;
+    height: 35px;
+}
+.btn-cdst-rtrn:active {
+    border-color: black; /*cor*/
+
+} 
+
+.btn {
+    font-weight: 700;
+    height: 50px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 2px 30px;
+    margin: 70px auto 25px;
+    /* shadows and rounded borders -> sombras e bordas arredondadas*/
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+} 
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+    font-family: 'Roboto';
+    color: #009688;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputName,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    background-color: #264653;
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus { 
+    color: white;
+    background: black;
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+a.backpage_glypicon{
+    color: white;
+}
+
+a.backpage_glypicon:link,
+a.backpage_glypicon:visited,
+a.backpage_glypicon:hover,
+a.backpage_glypicon:active {
+    text-decoration: none;
+    color: white;
+}
+
+.control{
+    background-color: red;
+    font-size: 70px;
+}
+

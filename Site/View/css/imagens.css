@@ -1,0 +1,44 @@
+@charset "utf-8";
+.image1
+{
+	background-image : url(../img/image1.png);
+	background-repeat : no-repeat;
+	position : absolute;
+        left : 60px;
+	top : 19px;
+	width : 289px;
+	height : 423px;
+}
+.image
+{
+	background-image : url(../img/image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left:  auto;
+        margin: 2px;
+	top : 164px;
+	width : 380px;
+	height : 480px;
+}
+.image2{
+    background-image : url(../img/image2.png);
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : auto;
+  top : 60px;
+  width : 400px;
+  height : 500px;
+}
+
+.image3
+{
+  background-image : url(../img/image3.png);
+  /*Para criar uma imagem referenciada no CSS, use o comando \'Exportar CSS selecionado\'.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 200px;
+  top : 230px;
+  width : 65px;
+  height : 14px;
+
+}

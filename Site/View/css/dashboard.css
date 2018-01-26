@@ -1,0 +1,188 @@
+
+body{
+    background-color: #F2F2F2;
+    font-family: 'robotoregular';
+}
+nav
+{
+    background-color: #009688 !important;
+    padding-top: 10px;
+}
+
+.dropdown-menu
+{
+    background-color: #00887a;
+}
+.drop-item
+{
+    display: inline-flex;
+}
+.drop-item>a
+{
+    color:white !important;
+}
+.drop-item>a:hover,
+.drop-item>a:focus{
+    background: transparent !important;
+}
+.caret-nav:hover,
+.nome-prof-nav:hover,
+.caret-nav :focus,
+.nome-prof-nav:focus{
+    color: white;
+    text-decoration: none;
+}
+
+.mtop30
+{
+    margin-top:30px;
+}
+.caret-nav,
+.nome-prof-nav
+{
+    color: white;
+    font-size: 22px;    
+    margin-left: 10px;
+}
+.img-prof
+{
+    height: auto;
+    width: 50px;
+    margin-left: 20px;
+}
+.img-edPerfil
+{
+    height: auto;
+    width: 180px;
+}
+.btn-novo-diario
+{
+    background-color: #264653 !important;
+    color: white !important;
+    border-radius: 2px !important;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+
+.btn-novo-diario:focus,
+.btn-novo-diario:hover{
+    background-color: #192d35 !important;
+}
+
+.config-ico
+{
+    color: white !important;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.config-ico:hover,
+.config-ico:focus{
+    transition: 0.2s;
+    color: #d7d7d7 !important;    
+}
+
+.organizedSchool{
+    color: #a0a0a0 !important;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.organizedSchool:hover,
+.organizedSchool:focus{
+    transition: 0.2s;
+    color: #878787 !important;    
+}
+
+.config-ico-organized
+{
+    color: #a0a0a0 !important;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.config-ico-organized:hover,
+.config-ico-organized:focus{
+    transition: 0.2s;
+    color: #878787 !important;    
+}
+/*Box diarios*/
+
+#diarios
+{
+    margin-top: 40px;
+}
+.inline
+{
+    display: inline-flex;
+}
+.text-center
+{
+    text-align: center;
+}
+.box-diario
+{
+    margin: 5px;
+    box-shadow: 0px 1px 15px #ccc;
+    border-radius: 2px;
+    position: relative;
+    background-color: white;
+}
+.box-diario:hover,
+.box-diario:focus{
+    box-shadow: 0px 1px 25px #ccc;
+}
+
+.text-rodape
+{
+    margin-top: 26px;
+    background-color: #E26D6D;
+    color: white;
+    padding: 14px;
+    padding-left: 20px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.config-ico-heart{
+    margin-right: 20px;
+    opacity: 0.3;
+    color: black;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.config-ico-heart:hover,
+.config-ico-heart:focus{
+    transition: 0.2s;  
+    opacity: 1.0;
+}
+
+.config-ico-diaries{
+    margin-right: 20px;
+    color: black !important;
+    opacity: 0.5;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.config-ico-diaries:hover,
+.config-ico-diaries:focus{
+    transition: 0.2s; 
+    opacity: 1.0;
+}
+
+/*box de organizacao de diarios*/
+#organized 
+{
+  margin-top: 10px;
+}
+
+#organizaDiarios{
+    background-color: #dbdbdb;
+    height: 80px;
+    margin-top: 0px;
+    padding-top: 15px;
+}

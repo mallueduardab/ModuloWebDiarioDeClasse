@@ -1,0 +1,167 @@
+
+body{
+    font-family: 'robotoregular';}
+.nome-escola
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #A1A1A1 !important;
+}
+
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+.serie-turma,
+.nome-disc
+{
+    color: black !important;
+    font-weight: bold;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.btn-blue
+{
+    background-color: #264653 !important;
+    color: white !important;
+    border-radius: 2px !important;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+
+.btn-blue:focus,
+.btn-blue:hover{
+    background-color: #192d35 !important;
+}
+
+.pleft0
+{
+    padding-left: 0px !important;
+}
+.ptop0
+{
+    padding-top: 0px !important;
+}
+.p15
+{
+    padding: 15px;
+}
+.p0{
+    padding: 0px !important;
+}
+.mtop2
+{
+    margin-top: 2px;
+}
+.m15
+{
+    margin: 15px;
+}
+.m20
+{
+    margin: 20px;
+}
+.m30
+{
+    margin: 30px;
+}
+.mright60
+{
+    margin-right: 60px;
+}
+
+.pbottom20
+{
+    padding-bottom: 20px;
+}
+.mtop20
+{
+    margin-top: 20px !important;
+}
+.mtop30
+{
+    margin-top: 30px !important;
+}
+.mtop40
+{
+    margin-top: 40px !important;
+}
+.header-red
+{
+    background-color: #E26D6D;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.text-white
+{
+    color: white;
+}
+.text-center
+{
+    text-align: center;
+}
+.upper
+{
+    text-transform: uppercase;
+}
+.text-left
+{
+    text-align: left;
+}
+.text-right
+{
+    text-align: right;
+}
+.top-icon-trash,
+.top-icon-back,
+.top-icon-edit
+{
+    color: white;
+    font-size: 25px;
+}
+
+.top-icon-trash{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.top-icon-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.top-icon-edit{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.top-icon-trash:hover,
+.top-icon-trash:focus,
+.top-icon-back:hover,
+.top-icon-back:focus,
+.top-icon-edit:hover,
+.top-icon-edit:focus{
+    color: #ccc;
+}
+.ico-table
+{
+    font-size: 25px;
+}
+.btn-table
+{
+    height: 23px;
+    width: 23px;
+}
+.green
+{
+    background-color: green !important;
+}
+.red{
+    background-color: red !important;
+}

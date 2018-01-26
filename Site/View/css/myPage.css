@@ -1,0 +1,23 @@
+html, body {
+	height: 100%;
+	font-family: 'robotoregular';
+	}
+	
+
+#all {
+	min-height: 100%;
+        position: relative;
+	}
+
+* html #all{
+	height: 100%; /* hack para IE6 que trata height como min-height */
+	}
+        
+#footer {
+	position: absolute;
+	bottom: 0;
+	}
+        
+#content {
+	padding-bottom: 30px;
+	}
