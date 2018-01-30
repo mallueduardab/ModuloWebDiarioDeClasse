@@ -30,7 +30,6 @@ if (!isset($email)):
 
 					<div id="remember" class="checkbox">
 						<label>
-							 <!--<input type="checkbox" value="remember-me" name="lembrar"> Remember me -->
 							<input type="checkbox" name="lembrar" value="s"> Remember me
 						</label>
 					</div>

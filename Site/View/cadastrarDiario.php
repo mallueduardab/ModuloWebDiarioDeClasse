@@ -72,7 +72,7 @@ if (isset($email)):
 
                             <h3 class="cdst">Modalidade</h3>
                             <span class="glyphicon big_glyphicon glyphicon-calendar"></span>
-                            <select id="modality" class="form-control-cdst btn-outline" name="modalidade" >
+                            <select id="modality" class="form-control-cdst btn-outline" name="modalidade"  required>
                                 <option value="p">Ensino Primário </option>
                                 <option value="f">Ensino Fundamental </option>
                                 <option value="m">Ensino Médio </option>
@@ -82,7 +82,7 @@ if (isset($email)):
                                 <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                     <h3 class="cdst">Série</h3>
                                     <span class="glyphicon big_glyphicon glyphicon-tag"></span>
-                                    <select id="series" class="form-control-cdst btn-outline" name="serie" >
+                                    <select id="series" class="form-control-cdst btn-outline" name="serie"  required>
                                         <option value="0">1ª</option>
                                         <option value="1">2ª</option>
                                         <option value="2">3ª</option>
@@ -106,7 +106,7 @@ if (isset($email)):
 
                             <h3 class="cdst">Regime de aulas</h3>
                             <span class="glyphicon big_glyphicon glyphicon-education "></span>
-                            <select id="classRegimen" name="regime" class="form-control-cdst btn-outline" >
+                            <select id="classRegimen" name="regime" class="form-control-cdst btn-outline" required >
                                 <option value="b">Bimestral</option>
                                 <option value="t">Trimestral</option>
                                 <option value="s">Semestral</option>

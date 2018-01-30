@@ -9,13 +9,13 @@ if (isset($email)):
 			<div class="ctn-prds">
 	     			<h3 class="form-control-cdst-periodo dados-periodo"> '.$qnt.' ' . Util::converteRegimeParaView($_POST['regime']) . '</h3>
 				<h3 class="cdst">Início do periodo</h3>
-				<input class="btn-outline fundo restricaoData" type="date" name="dataInicio[]" required style="color:black" value="' . date("Y-m-d",strtotime("+".$id1." day")) . '" id="regime'.$id1.'">
+				<input class="btn-outline fundo restricaoData" type="date" name="dataInicio[]" required style="color:black" value="' . date("Y-m-d",strtotime("+".$id1." day")) . '" id="regime'.$id1.'" required>
 				<h3 class="cdst">Fim do periodo</h3>
-				<input class="btn-outline fundo restricaoData" type="date" name="dataFim[]" required style="color:black" value="' . date("Y-m-d",strtotime("+".$id2." day")) . '" id="regime'.$id2.'">
+				<input class="btn-outline fundo restricaoData" type="date" name="dataFim[]" required style="color:black" value="' . date("Y-m-d",strtotime("+".$id2." day")) . '" id="regime'.$id2.'" required>
 				<h3 class="cdst">Quantidade de aulas</h3>
-				<input class="btn-outline fundo" type="number" id="qnt-aulas" name="qntAulas[]" required value="">
+				<input class="btn-outline fundo"  style="color:black" type="number" id="qnt-aulas" name="qntAulas[]" required value="3" required>
 							<h3 class="cdst">Valor do ' . Util::converteRegimeParaView($_POST['regime']) . ' </h3>
-				<input type="number" class="btn-outline fundo" type="number" id="valor-periodo-regime" name="valor[]" required value="">
+				<input type="number" class="btn-outline fundo"  style="color:black" type="number" id="valor-periodo-regime" name="valor[]" required value="3">
 
 			</div>
 
